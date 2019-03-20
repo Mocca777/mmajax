@@ -1,6 +1,6 @@
    var AjaxConsolLog = function(data){ console.log(data);};
-# light doku coming soon
-# free for non-profit
+// light doku coming soon
+// free for non-profit
   function sendAjax(method, url, data, rtype, progressbar, success){
    if(typeof method != 'string' && typeof url != 'string'){ return false;}
    method = method.toUpperCase();
